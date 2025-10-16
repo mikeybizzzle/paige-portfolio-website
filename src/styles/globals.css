@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Design token CSS variables */
+    --color-brand-midnight: #3D5A5C;
+    --color-brand-blush: #E8B4A8;
+    --color-brand-ivory: #F9F6F2;
+    --color-charcoal: #2C2C2C;
+    --color-moss: #A8B5A0;
+    --color-terracotta: #C77B65;
+    --color-slate: #8B9693;
+  }
+
+  * {
+    @apply border-charcoal/10;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-brand-ivory text-charcoal font-sans antialiased;
+  }
+
+  /* Focus states for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-brand-midnight ring-offset-2 ring-offset-brand-ivory;
+  }
+
+  /* Heading defaults */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-charcoal-900;
+  }
+}
+
+@layer utilities {
+  /* Custom scrollbar */
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    @apply bg-brand-ivory;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    @apply bg-brand-midnight/30 rounded-full;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    @apply bg-brand-midnight/50;
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
