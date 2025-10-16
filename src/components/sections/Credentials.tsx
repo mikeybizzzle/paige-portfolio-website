@@ -8,7 +8,8 @@ import { useInView } from '@/hooks/useInView'
 export default function Credentials() {
   const [ref, isInView] = useInView<HTMLElement>({ threshold: 0.2 })
 
-  const getIcon = (iconName: string) => {
+  const getIcon = (iconName: string | undefined) => {
+    if (!iconName) return Award
     const icons: Record<string, React.ElementType> = {
       Award,
       Trophy,

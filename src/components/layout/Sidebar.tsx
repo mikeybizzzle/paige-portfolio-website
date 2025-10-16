@@ -35,7 +35,8 @@ export default function Sidebar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const getIcon = (iconName: string) => {
+  const getIcon = (iconName: string | undefined) => {
+    if (!iconName) return Mail
     const icons: Record<string, React.ElementType> = {
       Instagram,
       Mail,

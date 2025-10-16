@@ -5,7 +5,6 @@ export const fadeIn: Variants = {
   initial: { opacity: 0 },
   animate: { opacity: 1 },
   exit: { opacity: 0 },
-  transition: { duration: 0.5, ease: 'easeOut' },
 }
 
 // Fade In Up
@@ -13,7 +12,6 @@ export const fadeInUp: Variants = {
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0 },
   exit: { opacity: 0, y: -20 },
-  transition: { duration: 0.5, ease: 'easeOut' },
 }
 
 // Fade In Down
@@ -21,7 +19,6 @@ export const fadeInDown: Variants = {
   initial: { opacity: 0, y: -20 },
   animate: { opacity: 1, y: 0 },
   exit: { opacity: 0, y: 20 },
-  transition: { duration: 0.5, ease: 'easeOut' },
 }
 
 // Slide In Left
@@ -29,7 +26,6 @@ export const slideInLeft: Variants = {
   initial: { x: -100, opacity: 0 },
   animate: { x: 0, opacity: 1 },
   exit: { x: -100, opacity: 0 },
-  transition: { duration: 0.3, ease: 'easeOut' },
 }
 
 // Slide In Right
@@ -37,7 +33,6 @@ export const slideInRight: Variants = {
   initial: { x: 100, opacity: 0 },
   animate: { x: 0, opacity: 1 },
   exit: { x: 100, opacity: 0 },
-  transition: { duration: 0.3, ease: 'easeOut' },
 }
 
 // Scale In
@@ -45,7 +40,6 @@ export const scaleIn: Variants = {
   initial: { scale: 0.95, opacity: 0 },
   animate: { scale: 1, opacity: 1 },
   exit: { scale: 0.95, opacity: 0 },
-  transition: { duration: 0.4, ease: 'easeOut' },
 }
 
 // Stagger Container
@@ -63,7 +57,6 @@ export const staggerContainer: Variants = {
 export const staggerItem: Variants = {
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.5 },
 }
 
 // Card Hover
@@ -88,7 +81,6 @@ export const modalBackdrop: Variants = {
   initial: { opacity: 0 },
   animate: { opacity: 1 },
   exit: { opacity: 0 },
-  transition: { duration: 0.3 },
 }
 
 // Modal Content
@@ -96,7 +88,6 @@ export const modalContent: Variants = {
   initial: { opacity: 0, scale: 0.95, y: 20 },
   animate: { opacity: 1, scale: 1, y: 0 },
   exit: { opacity: 0, scale: 0.95, y: 20 },
-  transition: { duration: 0.3, ease: 'easeOut' },
 }
 
 // Accordion Content
@@ -113,7 +104,6 @@ export const accordionContent: Variants = {
 export const iconRotate: Variants = {
   collapsed: { rotate: 0 },
   expanded: { rotate: 180 },
-  transition: { duration: 0.3 },
 }
 
 // Page Transition
@@ -121,7 +111,6 @@ export const pageTransition: Variants = {
   initial: { opacity: 0, x: -20 },
   animate: { opacity: 1, x: 0 },
   exit: { opacity: 0, x: 20 },
-  transition: { duration: 0.3 },
 }
 
 // Navbar Scroll
@@ -132,7 +121,6 @@ export const navbarScroll: Variants = {
     backdropFilter: 'blur(8px)',
     boxShadow: '0 2px 4px 0 rgba(61, 90, 92, 0.06)',
   },
-  transition: { duration: 0.3 },
 }
 
 // Typing Animation (for hero headline)
@@ -152,12 +140,10 @@ export const typingCursor: Variants = {
 export const counterAnimation = {
   initial: { opacity: 0, scale: 0.5 },
   animate: { opacity: 1, scale: 1 },
-  transition: { duration: 0.5, ease: 'easeOut' },
 }
 
 // Scroll Progress Bar
 export const scrollProgress: Variants = {
   initial: { scaleX: 0, transformOrigin: '0%' },
   animate: { scaleX: 1 },
-  transition: { duration: 0.1, ease: 'linear' },
 }

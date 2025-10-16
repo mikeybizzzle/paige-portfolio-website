@@ -12,7 +12,8 @@ export default function About() {
   const [ref, isInView] = useInView<HTMLElement>({ threshold: 0.2 })
   const [expandedEvent, setExpandedEvent] = useState<string | null>(null)
 
-  const getIcon = (iconName: string) => {
+  const getIcon = (iconName: string | undefined) => {
+    if (!iconName) return Sparkles
     const icons: Record<string, React.ElementType> = {
       Trophy,
       AlertCircle,

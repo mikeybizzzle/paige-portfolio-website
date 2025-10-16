@@ -6,7 +6,8 @@ import { Instagram, Mail, Linkedin, Calendar, Download } from 'lucide-react'
 import { socialLinks, ctaButtons } from '@/data/content'
 
 export default function MobileProfileHero() {
-  const getIcon = (iconName: string) => {
+  const getIcon = (iconName: string | undefined) => {
+    if (!iconName) return Mail
     const icons: Record<string, React.ElementType> = {
       Instagram,
       Mail,
