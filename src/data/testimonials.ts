@@ -40,7 +40,7 @@ export const testimonials: Testimonial[] = [
       other: ['Improved athletic performance', 'Better sleep'],
     },
     quote:
-      'The personalized programming makes all the difference. Coach Paige tailored everything to my specific goals and body, and the results speak for themselves. I'm lifting heavier than I ever thought possible and have consistent energy to keep up with my kids.',
+      "The personalized programming makes all the difference. Coach Paige tailored everything to my specific goals and body, and the results speak for themselves. I'm lifting heavier than I ever thought possible and have consistent energy to keep up with my kids.",
     timeline: '8 months',
     category: 'strength',
     image: {
@@ -70,7 +70,7 @@ export const testimonials: Testimonial[] = [
       ],
     },
     quote:
-      'As a mom of three running a business, I thought consistent fitness was impossible. Coach Paige created a plan that actually works with my chaotic life—and the results have been incredible. My energy is better, my stress is lower, and I'm stronger than I've been in years.',
+      "As a mom of three running a business, I thought consistent fitness was impossible. Coach Paige created a plan that actually works with my chaotic life—and the results have been incredible. My energy is better, my stress is lower, and I'm stronger than I've been in years.",
     timeline: '12 weeks',
     category: 'general',
     image: {
@@ -101,7 +101,7 @@ export const testimonials: Testimonial[] = [
       ],
     },
     quote:
-      'I came to Viora after being diagnosed with PCOS, feeling betrayed by my body. Coach Paige's hormone-aware approach was exactly what I needed. She helped me understand how to work with my body instead of fighting against it. Six months in, my symptoms have improved dramatically, I've built visible muscle for the first time, and I actually look forward to my workouts. This isn't just fitness—it's healing.',
+      "I came to Viora after being diagnosed with PCOS, feeling betrayed by my body. Coach Paige's hormone-aware approach was exactly what I needed. She helped me understand how to work with my body instead of fighting against it. Six months in, my symptoms have improved dramatically, I've built visible muscle for the first time, and I actually look forward to my workouts. This isn't just fitness—it's healing.",
     timeline: '6+ months',
     category: 'hormones',
     image: {
@@ -127,7 +127,7 @@ export const testimonials: Testimonial[] = [
       other: ['Rebuilt core strength', 'Improved body confidence', 'Increased energy'],
     },
     quote:
-      'This was the first fitness approach that actually felt designed for ME. Coach Paige understood the unique challenges of postpartum recovery and never made me feel like I should "bounce back" faster. I've lost 22 pounds and feel stronger than before having kids—both physically and mentally.',
+      "This was the first fitness approach that actually felt designed for ME. Coach Paige understood the unique challenges of postpartum recovery and never made me feel like I should \"bounce back\" faster. I've lost 22 pounds and feel stronger than before having kids—both physically and mentally.",
     timeline: '9 months',
     category: 'postpartum',
     image: {
@@ -153,7 +153,7 @@ export const testimonials: Testimonial[] = [
       other: ['Visible muscle definition', 'Better posture', 'Improved confidence'],
     },
     quote:
-      'I was stuck in a plateau for over a year before working with Coach Paige. Her hormone-optimized approach and personalized programming helped me finally break through. I've gained visible muscle definition and feel more confident in my body than ever.',
+      "I was stuck in a plateau for over a year before working with Coach Paige. Her hormone-optimized approach and personalized programming helped me finally break through. I've gained visible muscle definition and feel more confident in my body than ever.",
     timeline: '5 months',
     category: 'strength',
     image: {
@@ -179,7 +179,7 @@ export const testimonials: Testimonial[] = [
       other: ['Better sleep', 'Stabilized mood', 'Maintained muscle mass', 'Weight management'],
     },
     quote:
-      'Perimenopause hit me like a truck—weight gain, sleep issues, mood swings. Coach Paige's understanding of hormonal changes made all the difference. She adapted my training to support my changing body, not fight against it. I feel like myself again.',
+      "Perimenopause hit me like a truck—weight gain, sleep issues, mood swings. Coach Paige's understanding of hormonal changes made all the difference. She adapted my training to support my changing body, not fight against it. I feel like myself again.",
     timeline: '7 months',
     category: 'hormones',
     image: {
@@ -206,7 +206,7 @@ export const testimonials: Testimonial[] = [
       other: ['Established sustainable routine', 'Improved sleep despite night shifts'],
     },
     quote:
-      'Working night shifts made fitness feel impossible. Coach Paige created a flexible program that adapts to my rotating schedule. I've lost weight, built strength, and finally have a routine I can actually stick to—no matter what shift I'm working.',
+      "Working night shifts made fitness feel impossible. Coach Paige created a flexible program that adapts to my rotating schedule. I've lost weight, built strength, and finally have a routine I can actually stick to—no matter what shift I'm working.",
     timeline: '10 months',
     category: 'weight-loss',
     image: {

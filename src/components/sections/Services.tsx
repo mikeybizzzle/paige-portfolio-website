@@ -43,7 +43,7 @@ export default function Services() {
               </div>
 
               <div className="mb-6">
-                <h4 className="text-h4 font-semibold text-brand-midnight mb-3">What's Included</h4>
+                <h4 className="text-h4 font-semibold text-brand-midnight mb-3">What&apos;s Included</h4>
                 <ul className="space-y-2">
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-2 text-body text-charcoal-600">

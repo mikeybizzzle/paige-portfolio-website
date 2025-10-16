@@ -47,7 +47,7 @@ export default function MobileProfileHero() {
           className="mb-2 text-center"
         >
           <h1 className="text-h3 font-bold text-brand-midnight">Coach Paige</h1>
-          <p className="text-body text-charcoal-600">Women's Fitness Coach</p>
+          <p className="text-body text-charcoal-600">Women&apos;s Fitness Coach</p>
         </motion.div>
 
         {/* Tagline */}
